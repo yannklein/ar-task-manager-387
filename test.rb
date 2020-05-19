@@ -14,7 +14,7 @@ require_relative 'task'
 # READ (one)
 puts '> READ (one)'
 # Your code here!
-task = Task.find(1) 
+task = Task.find(1)
 puts "#{task.title}: #{task.description} #{task.done ? '[X]' : '[ ]'}"
 
 # CREATE
@@ -47,3 +47,4 @@ puts '> DELETE'
 # Your code here!
 task = Task.find(2)
 task.delete
+
